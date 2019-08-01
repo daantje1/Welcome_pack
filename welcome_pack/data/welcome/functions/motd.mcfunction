@@ -1,0 +1,2 @@
+execute as @a[scores={motd=1..}] run tellraw @s ["",{"text":"This motd is brought to you by","color":"aqua"},{"text":" "},{"text":"Roflsquad.net","color":"red","clickEvent":{"action":"open_url","value":"http://Roflsquad.net"}}]
+execute if entity @a[scores={motd=1..}] run scoreboard players set @a motd 0
