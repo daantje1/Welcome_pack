@@ -6,7 +6,7 @@ Each specific message is separated by a different mcfunction, I would suggest a 
 # How it works
 ■ /reload to start the datapack. Once datapack is enabled, all current online players will see a welmsg.mcfunction and a personal message of the welmotd.mcfunction. If a new player has joined after the datapack is enabled, all online players will be notified but that player will be the only one to get the personal welmotd.mcfunction.
 
-■ Once a player has connected one time it will enable access to use the motd.mcfunction via typing /trigger motd [set or add] anynumber to repeat the motd if they would like to see it again. A player can trigger this as many times as they would like.
+■ Once a player has connected one time it will enable access to use the motd.mcfunction via typing /trigger motd to repeat the motd if they would like to see it again. A player can trigger this as many times as they would like.
 
 ■ If a player leaves and rejoins, it will then trigger the rejoinmsg.mcfunction to send them a personal message that they have connected back into the server.
 
